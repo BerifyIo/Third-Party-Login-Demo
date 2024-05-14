@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import BerifyAppApi from '@bytexbyte/berify-app-api';
+import BerifyAppApi from '@bytexbyte/berify-app-open-api';
 
 const berifyAppApi = new BerifyAppApi({
   host: 'https://sandbox-staging-app.berify.io',

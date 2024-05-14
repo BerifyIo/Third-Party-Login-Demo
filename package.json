@@ -12,7 +12,7 @@
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@bytexbyte/berify-app-api": "^2.7.1"
+    "@bytexbyte/berify-app-open-api": "0.0.7"
   },
   "devDependencies": {
     "@types/node": "^18.7.14",
