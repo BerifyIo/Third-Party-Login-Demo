@@ -16,8 +16,8 @@ export default async function handler(
     case 'GET': {
       const { tokenId } = req.query;
       if (typeof tokenId === 'string') {
-        const deleteToken = await berifyAppApi.auth.deleteToken({ token: tokenId });
-        console.log('get user data:', deleteToken);
+        const userData = await berifyAppApi.auth.getUserData({ token: tokenId });
+        console.log('get user data:', userData);
       }
       return res.redirect('http://localhost:3000');
     }
